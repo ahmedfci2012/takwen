@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, ScrollView, Platform, Dimensions, Modal, TouchableOpacity, ImageBackground, StatusBar } from 'react-native';
+import { View, Image, ScrollView, Platform, Dimensions, Modal, TouchableOpacity, ImageBackground, StatusBar , SafeAreaView} from 'react-native';
 import {  Header, Left, Body, Right, Button, Icon, Title, Content,Text, Container, Fab, Card, CardItem, Thumbnail ,Form, Picker, DatePicker, Input  } from 'native-base';
 
 import TitleHeader from './TitleHeader';
@@ -124,24 +124,27 @@ backScreen = ()=>{
 
 
   render(){
+      //alert(height)
       let i = this.state.screen;
     return(
 
 <Container style={{
-    paddingBottom:8,
-    paddingTop:0
+    paddingBottom:8, 
+    paddingTop:0,
 }}>
 
-  <Content style={{paddingBottom:60}}>     
-    <ImageBackground source={require('../assets/background.png')}
-                style={{height:245 ,width:width}}
-                resizeMode={"contain"}> 
+  <Content contentContainerStyle={{paddingBottom:60}}>
+    
+  <ImageBackground source={require('../assets/background.png')}
+                style={{ width:width, height:height*0.33 , marginTop:height >700 ?-32:-5 }}
+                resizeMode={"contain"}  >    
          
-    </ImageBackground>   
+    </ImageBackground>
+    
     <TitleHeader value = { data[i].header} back={this.backScreen} />
     <TitleNote text1={ data[i].text1}  text2={ data[i].text2} />
 
-    <TouchableOpacity>
+    <TouchableOpacity>  
         <View style={{ 
                 flex:1 , 
                 justifyContent:'center', 
@@ -241,3 +244,13 @@ backScreen = ()=>{
 
 
 export default Helps;
+
+
+
+
+
+
+/*
+keytool -genkey -v -keystore file.keystore -alias YOUR_ALIAS_NAME -storepass YOUR_ALIAS_PWD -keypass YOUR_ALIAS_PWD -keyalg RSA -validity 36500
+keytool -genkey -v -keystore file.keystore -alias takwen -storepass 20120027 -keypass 20120027 -keyalg RSA -validity 36500
+*/

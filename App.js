@@ -7,7 +7,7 @@ import Helps from './src/component/helps';
 export default class App extends React.Component{
   render(){
     return(
-      <Helps /> 
+      <Main  /> 
     )
   } 
 }
