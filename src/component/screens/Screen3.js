@@ -9,7 +9,7 @@ class Screen3 extends React.Component{
         return(
             <View style={{paddingBottom:60}}>
      
-            <TouchableOpacity>
+            <TouchableOpacity onPress={()=>this.props.navigate_("Helps")} >
             <View style={{paddingLeft:18, paddingRight:18, marginTop:20}}>
                 <View style={{
                         height:84,

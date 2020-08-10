@@ -13,7 +13,7 @@ class Footer extends React.Component{
             {this.props.tab==4?
                     <TouchableOpacity style={{ flex:1.8 }}>
                         <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center', borderWidth:1,borderRadius:30 , borderColor:'#65008DC7',backgroundColor:'#FFF'}}>
-                            <Text style={{color:'#000000', fontSize:14, paddingLeft:3,paddingRight:3 }}> الرئيسية</Text>
+                            <Text style={{color:'#000000', fontSize:14, paddingLeft:3,paddingRight:3 }}> المستخدم</Text>
                             <Icon name="user-o" type="FontAwesome"  style={{color:'#7120A0',fontSize:30}}  />
                         </View>
                     </TouchableOpacity>
