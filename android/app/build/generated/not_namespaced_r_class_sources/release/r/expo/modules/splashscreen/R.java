@@ -696,8 +696,8 @@ public final class R {
         public static final int redbox_top_border_background = 0x7f0700a2;
         public static final int splashscreen = 0x7f0700a3;
         public static final int splashscreen_image = 0x7f0700a4;
-        public static final int tooltip_frame_dark = 0x7f0700aa;
-        public static final int tooltip_frame_light = 0x7f0700ab;
+        public static final int tooltip_frame_dark = 0x7f0700ab;
+        public static final int tooltip_frame_light = 0x7f0700ac;
     }
     public static final class id {
         private id() {}

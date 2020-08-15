@@ -8,7 +8,8 @@ class Footer extends React.Component{
   
     render(){
         return(
-            <View style={{ height:82 ,width:width-20,flexDirection:'row', marginRight:10, marginLeft:10,justifyContent:'space-around',alignItems:'center',backgroundColor:'#65008DC7',borderBottomRightRadius:25,borderBottomLeftRadius:25, borderTopEndRadius:37,borderTopLeftRadius:37, paddingLeft:30, paddingRight:30 }}>
+            <View style={{height:height*.10615,
+                width:width-20,flexDirection:'row', marginRight:10, marginLeft:10,justifyContent:'space-around',alignItems:'center',backgroundColor:'#65008DC7',borderBottomRightRadius:25,borderBottomLeftRadius:25, borderTopEndRadius:37,borderTopLeftRadius:37, paddingLeft:30, paddingRight:30 }}>
 
             {this.props.tab==4?
                     <TouchableOpacity style={{ flex:1.8 }}>

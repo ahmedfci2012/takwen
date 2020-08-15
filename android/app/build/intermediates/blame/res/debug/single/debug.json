@@ -4,12 +4,12 @@
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/khwarizm/takwen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat",
@@ -32,12 +32,12 @@
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/res/layout/mtrl_alert_dialog.xml"
     },
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
@@ -56,24 +56,24 @@
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_close_circle.xml.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/res/drawable/ic_mtrl_chip_close_circle.xml"
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/animator_design_fab_hide_motion_spec.xml.flat",
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/res/animator/design_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_close_circle.xml.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/res/drawable/ic_mtrl_chip_close_circle.xml"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-v21_avd_show_password.xml.flat",
@@ -140,16 +140,16 @@
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/color_mtrl_calendar_item_stroke_color.xml.flat",
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/res/color/mtrl_calendar_item_stroke_color.xml"
     },
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/color_mtrl_tabs_ripple_color.xml.flat",
@@ -172,12 +172,12 @@
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_dialog_material_background.xml.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-v21/abc_dialog_material_background.xml"
-    },
-    {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/layout_mtrl_alert_dialog_actions.xml.flat",
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/res/layout/mtrl_alert_dialog_actions.xml"
+    },
+    {
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_dialog_material_background.xml.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-v21/abc_dialog_material_background.xml"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_checked_mtrl.xml.flat",

@@ -32,7 +32,8 @@ const { width, height } = Dimensions.get("window");
     paddingTop:0
 }}>
   <Content>     
-        <ImageGround tab= {this.props.tab }/>
+        <ImageGround tab= {this.state.tab }/>
+
         {this.state.tab == 1 ? <Screen1 /> :null}
 
         {this.state.tab == 2? <Screen2 /> :null}

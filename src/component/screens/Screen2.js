@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Image, ScrollView, Platform, Dimensions, Modal, TouchableOpacity, ImageBackground, StatusBar } from 'react-native';
 import {  Header, Left, Body, Right, Button, Icon, Title, Content,Text, Container, Fab, Card, CardItem, Thumbnail ,Form, Picker, DatePicker, Input  } from 'native-base';
+const { width, height } = Dimensions.get("window");
 
 
 class Screen2 extends React.Component{
@@ -8,15 +9,14 @@ class Screen2 extends React.Component{
     render(){
         return(
             <View>
-            <View style={{flex:1,flexDirection:'row' ,alignItems:'center', justifyContent:'flex-end', paddingLeft:20, paddingRight:20, marginTop:10}}>
                 
-                <View style={{flex:1, marginTop:-50}}>
-            <View style={{ height:41,width:41,borderWidth:1, borderColor:'#624A6C',borderRadius:50}}>
-                        <Icon name="add" type="MaterialIcons" style={{color:'#624A6C',fontSize:38}}  />
-                        <Text style={{color:'#000000C7', fontWeight:'bold', fontSize:11,textAlign:'center'}}> جديد</Text>
-                    </View>
-                    </View>
-        </View>
+                <View style={{flex:1 ,flexDirection:'row', justifyContent:'flex-start', marginLeft:30 }}>
+                        <View>
+                            <Icon name="pluscircleo" type="AntDesign" style={{color:'#624A6C', textAlign:'center'}}  />
+                            <Text style={{color:'#000000C7', fontWeight:'bold', fontSize:11,textAlign:'center'}}> جديد</Text>
+                        </View>
+                </View>
+
                 <View style={{flex:3,flexDirection:'row' ,alignItems:'center', justifyContent:'flex-end', paddingLeft:20, paddingRight:20}}>
                     <Text style={{paddingRight:5, paddingLeft:8}} >ملغي</Text>
                     <View style={{height:18, width:18, borderRadius:50,borderColor:'#BE2A2A',backgroundColor:'#BE2A2A'}}></View>
@@ -34,12 +34,10 @@ class Screen2 extends React.Component{
             <TouchableOpacity>
             <View style={{paddingLeft:18, paddingRight:18, marginTop:20}}>
                 <View style={{
-                        height:84,
+                        height:height*.10615,
                         flex:1,
                         flexDirection:'row',
-                        borderWidth:1,
                         borderRadius:10,
-                        borderColor:'#65008DC7',
                         backgroundColor:'#65008DC7',
                         justifyContent:'flex-start', 
                         alignItems:'center',
@@ -62,12 +60,10 @@ class Screen2 extends React.Component{
              <TouchableOpacity>
             <View style={{paddingLeft:18, paddingRight:18, marginTop:20}}>
                 <View style={{
-                        height:84,
+                        height:height*.10615,
                         flex:1,
                         flexDirection:'row',
-                        borderWidth:1,
                         borderRadius:10,
-                        borderColor:'#00C1C1C7',
                         backgroundColor:'#00C1C1C7',
                         justifyContent:'flex-start', 
                         alignItems:'center',
@@ -90,12 +86,10 @@ class Screen2 extends React.Component{
             <TouchableOpacity>
             <View style={{paddingLeft:18, paddingRight:18, marginTop:20}}>
                 <View style={{
-                        height:84,
+                        height:height*.10615,
                         flex:1,
                         flexDirection:'row',
-                        borderWidth:1,
                         borderRadius:10,
-                        borderColor:'#BE0000C7',
                         backgroundColor:'#BE0000C7',
                         justifyContent:'flex-start', 
                         alignItems:'center',
@@ -118,12 +112,10 @@ class Screen2 extends React.Component{
             <TouchableOpacity>
             <View style={{paddingLeft:18, paddingRight:18, marginTop:20, marginBottom:60}}>
                 <View style={{
-                        height:84,
+                        height:height*.10615,
                         flex:1,
                         flexDirection:'row',
-                        borderWidth:1,
                         borderRadius:10,
-                        borderColor:'#D55900C7',
                         backgroundColor:'#D55900C7',
                         justifyContent:'flex-start', 
                         alignItems:'center',

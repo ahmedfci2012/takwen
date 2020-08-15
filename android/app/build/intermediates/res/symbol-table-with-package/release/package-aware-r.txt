@@ -1408,6 +1408,7 @@ drawable redbox_top_border_background
 drawable splashscreen
 drawable splashscreen_image
 drawable src_component_assets_background
+drawable src_component_assets_done
 drawable src_component_assets_logotak
 drawable src_component_assets_man1
 drawable src_component_assets_man2

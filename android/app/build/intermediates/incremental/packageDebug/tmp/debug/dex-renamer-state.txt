@@ -1,4 +1,4 @@
-#Sat Aug 08 20:48:01 EET 2020
+#Sat Aug 15 16:39:37 EET 2020
 base.10=/Users/khwarizm/takwen/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_15.dex
 path.31=classes_9.dex
 path.30=classes_8.dex

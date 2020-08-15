@@ -2,27 +2,27 @@ import React from 'react';
 import { View, Image, ScrollView, Platform, Dimensions, Modal, TouchableOpacity, ImageBackground, StatusBar } from 'react-native';
 import {  Header, Left, Body, Right, Button, Icon, Title, Content,Text, Container, Fab, Card, CardItem, Thumbnail ,Form, Picker, DatePicker, Input  } from 'native-base';
 
+const { width, height } = Dimensions.get("window");
 
 class Screen1 extends React.Component{
   
     render(){
         return(
             <View>
-    <View style={{ height:84,flexDirection:'row',marginTop:15 }}>
+    <View style={{ height:height*.10615,flexDirection:'row',marginTop:15 }}>
 
          <View style={{flex:1, justifyContent:'center', alignItems:'center',}}>
-            
-            <View style={{ height:41,width:41,borderWidth:1, borderColor:'#624A6C',borderRadius:50}}>
-                <Icon name="add" type="MaterialIcons" style={{color:'#624A6C',fontSize:38}}  />
+             
+            <View >
+                <Icon name="pluscircleo" type="AntDesign" style={{color:'#624A6C', textAlign:'center'}}  />
                 <Text style={{color:'#000000C7', fontWeight:'bold', fontSize:11,textAlign:'center'}}> جديد</Text>
             </View>
-            </View>
+            </View>  
 
             <TouchableOpacity style={{flex:3,}}> 
                 <View style={{flex:1,paddingLeft:18, paddingRight:18}}> 
             <View style={{
                         flex:1,
-                        borderWidth:1,
                         borderRadius:10,
                         backgroundColor:'#65008DC7',
                         justifyContent:'center', 
@@ -46,13 +46,13 @@ class Screen1 extends React.Component{
         <Text style={{color:'#000000', fontWeight:'bold', fontSize:36}}>خطط ونفذ</Text>
     </View>
 
-<TouchableOpacity>
-    <View style={{paddingLeft:18, paddingRight:18, marginTop:10}}>
-    <View style={{
-            height:84,
+
+    <View style={{paddingLeft:18, paddingRight:18, marginTop:10, marginBottom:60}}>
+    <TouchableOpacity>
+       <View style={{
+            height:height*.10615,
             flex:1,
             flexDirection:'row',
-            borderWidth:1,
             borderRadius:10,
             backgroundColor:'#0032B1F3',
             justifyContent:'flex-start', 
@@ -63,34 +63,32 @@ class Screen1 extends React.Component{
                 height: 1,
             },
             shadowOpacity: 0.25,
-            shadowRadius: 1.00,
-            elevation: 1,
+            shadowRadius: 1.00
         }}>
 
-            <View style={{ flex:1 , justifyContent:'center', alignItems:'center'}}>
+            <View style={{ flex:.7 , justifyContent:'flex-end', alignItems:'center' }}>
                 <Image 
                 source={require('../assets/man1.png')}
-                style={{height:149 ,width:208 , marginBottom:20}}
+                style={{height:height*.15629  ,width:width*.4524  }}
                 resizeMode={"contain"}
                 />
-            </View>
+            </View> 
 
             <View style={{ flex:1 , justifyContent:'center', alignItems:'center'}}>
                 <Text style={{fontSize:24,color:'#FFF',fontWeight:'bold'}}> نموزج العمل </Text>
             </View>
 
             </View>
-     
+    </TouchableOpacity>
 </View>   
-</TouchableOpacity>
  
-<TouchableOpacity>
-    <View style={{paddingLeft:18, paddingRight:18, marginTop:70, marginBottom:60}}>
+
+    <View style={{paddingLeft:18, paddingRight:18, marginBottom:60}}>
+    <TouchableOpacity>
         <View style={{
-                height:84,
+                height:height*.10615,
                 flex:1,
                 flexDirection:'row',
-                borderWidth:1,
                 borderRadius:10,
                 backgroundColor:'#5C0091',
                 justifyContent:'flex-start', 
@@ -101,8 +99,7 @@ class Screen1 extends React.Component{
                     height: 1,
                 },
                 shadowOpacity: 0.25,
-                shadowRadius: 1.00,
-                elevation: 1,
+                shadowRadius: 1.00
             }}>
 
                 
@@ -112,17 +109,17 @@ class Screen1 extends React.Component{
                 </View>
 
 
-                <View style={{ flex:1 , justifyContent:'center', alignItems:'center'}}>
+                <View style={{ flex:.7 , justifyContent:'flex-end', alignItems:'center' }}>
                     <Image 
                     source={require('../assets/man2.png')}
-                    style={{height:149 ,width:208 , marginBottom:20}}
+                    style={{height:height*.15629  ,width:width*.4524  }}
                     resizeMode={"contain"}
                     />
                 </View>
                 </View>
-        
+    </TouchableOpacity>
     </View>
- </TouchableOpacity>  
+  
    
 </View>
         )

@@ -6600,12 +6600,13 @@ public final class R {
     public static final int splashscreen=0x7f0700a3;
     public static final int splashscreen_image=0x7f0700a4;
     public static final int src_component_assets_background=0x7f0700a5;
-    public static final int src_component_assets_logotak=0x7f0700a6;
-    public static final int src_component_assets_man1=0x7f0700a7;
-    public static final int src_component_assets_man2=0x7f0700a8;
-    public static final int test_custom_background=0x7f0700a9;
-    public static final int tooltip_frame_dark=0x7f0700aa;
-    public static final int tooltip_frame_light=0x7f0700ab;
+    public static final int src_component_assets_done=0x7f0700a6;
+    public static final int src_component_assets_logotak=0x7f0700a7;
+    public static final int src_component_assets_man1=0x7f0700a8;
+    public static final int src_component_assets_man2=0x7f0700a9;
+    public static final int test_custom_background=0x7f0700aa;
+    public static final int tooltip_frame_dark=0x7f0700ab;
+    public static final int tooltip_frame_light=0x7f0700ac;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
