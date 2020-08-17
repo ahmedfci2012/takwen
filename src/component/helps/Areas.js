@@ -26,7 +26,7 @@ class Inputs extends React.Component{
                         borderWidth: 2,
                         borderColor:'#00000026',
                         borderRadius: 10,
-                        height: height*.3,
+                        height: height*.29910  ,
                         color: "#999999",
                         fontSize: 18,
                         fontWeight:'400',

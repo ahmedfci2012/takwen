@@ -26,7 +26,7 @@ class Inputs extends React.Component{
                     borderWidth: 2,
                     borderColor:'#00000026',
                     borderRadius: 10,
-                    height: 60,
+                    height: height*.07031 ,
                     color: "#999999",
                     fontSize: 18,
                     fontWeight:'400',
@@ -35,7 +35,8 @@ class Inputs extends React.Component{
                         width: 0,
                         height: 4,
                     },
-                    shadowOpacity: 0.25
+                    shadowOpacity: 0.25,
+                    
                         
                     }}
             />
@@ -54,7 +55,7 @@ class Inputs extends React.Component{
                     borderWidth: 2,
                     borderColor:'#00000026',
                     borderRadius: 10,
-                    height: 60,
+                    height: height*.07031 ,
                     color: "#999999",
                     fontSize: 18,
                     fontWeight:'400',
@@ -82,7 +83,7 @@ class Inputs extends React.Component{
                     borderWidth: 2,
                     borderColor:'#00000026',
                     borderRadius: 10,
-                    height: 60,
+                    height: height*.07031 ,
                     color: "#999999",
                     fontSize: 18,
                     fontWeight:'400',

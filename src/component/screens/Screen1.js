@@ -66,10 +66,10 @@ class Screen1 extends React.Component{
             shadowRadius: 1.00
         }}>
 
-            <View style={{ flex:.7 , justifyContent:'flex-end', alignItems:'center' }}>
+            <View style={{ flex:.6 , justifyContent:'flex-end', alignItems:'center' }}>
                 <Image 
                 source={require('../assets/man1.png')}
-                style={{height:height*.15629  ,width:width*.4524  }}
+                style={{height:height*.15629  ,width:width*.4124  }}
                 resizeMode={"contain"}
                 />
             </View> 
@@ -109,10 +109,10 @@ class Screen1 extends React.Component{
                 </View>
 
 
-                <View style={{ flex:.7 , justifyContent:'flex-end', alignItems:'center' }}>
+                <View style={{ flex:.6 , justifyContent:'flex-end', alignItems:'center' }}>
                     <Image 
                     source={require('../assets/man2.png')}
-                    style={{height:height*.15629  ,width:width*.4524  }}
+                    style={{height:height*.15629   ,width:width*.4124   }}
                     resizeMode={"contain"}
                     />
                 </View>

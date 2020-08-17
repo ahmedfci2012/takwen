@@ -1,4 +1,4 @@
-#Wed Aug 12 16:38:05 EET 2020
+#Mon Aug 17 15:50:12 EET 2020
 base.0=/Users/khwarizm/takwen/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex

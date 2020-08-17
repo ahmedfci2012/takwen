@@ -13,7 +13,7 @@ class Footer extends React.Component{
 
             {this.props.tab==4?
                     <TouchableOpacity style={{ flex:1.8 }}>
-                        <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center', borderWidth:1,borderRadius:30 , borderColor:'#65008DC7',backgroundColor:'#FFF'}}>
+                        <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center', borderRadius:30 ,backgroundColor:'#FFF'}}>
                             <Text style={{color:'#000000', fontSize:14, paddingLeft:3,paddingRight:3 }}> المستخدم</Text>
                             <Icon name="user-o" type="FontAwesome"  style={{color:'#7120A0',fontSize:30}}  />
                         </View>
@@ -28,7 +28,7 @@ class Footer extends React.Component{
         
                 {this.props.tab==3?
                     <TouchableOpacity style={{ flex:1.8 }}>
-                        <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center', borderWidth:1,borderRadius:30 , borderColor:'#65008DC7',backgroundColor:'#FFF'}}>
+                        <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center', borderRadius:30 ,backgroundColor:'#FFF'}}>
                             <Text style={{color:'#000000', fontSize:14, paddingLeft:3,paddingRight:3 }}> المساعدة</Text>
                             <Icon  name="earphones-alt" type="SimpleLineIcons" style={{color:'#7120A0',fontSize:30}}  />
                         </View>
@@ -43,7 +43,7 @@ class Footer extends React.Component{
         
                  {this.props.tab==2?
                     <TouchableOpacity style={{ flex:1.8 }}>
-                        <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center', borderWidth:1,borderRadius:30 , borderColor:'#65008DC7',backgroundColor:'#FFF'}}>
+                        <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center', borderRadius:30 ,backgroundColor:'#FFF'}}>
                             <Text style={{color:'#000000', fontSize:14, paddingLeft:3,paddingRight:3 }}> المشاريع</Text>
                             <Icon name="briefcase" type="SimpleLineIcons" style={{color:'#7120A0',fontSize:28}}  />
                         </View>
@@ -58,7 +58,7 @@ class Footer extends React.Component{
                 
                 {this.props.tab==1?
                     <TouchableOpacity style={{ flex:1.8 }} >
-                        <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center', borderWidth:1,borderRadius:30 , borderColor:'#65008DC7',backgroundColor:'#FFF'}}>
+                        <View style={{  height:44 ,flexDirection:'row', justifyContent:'center',alignItems:'center',borderRadius:30 ,backgroundColor:'#FFF'}}>
                             <Text style={{color:'#000000', fontSize:14, paddingLeft:3,paddingRight:3 }}> الرئيسية</Text>
                             <Icon name="home" type="AntDesign"  style={{color:'#7120A0',fontSize:30}}  />
                         </View>

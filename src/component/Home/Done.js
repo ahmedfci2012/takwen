@@ -26,12 +26,12 @@ class Done extends React.Component{
             fontSize:14,
             color:'#FFF',
             textAlign:'center',
-            marginTop:40
+            marginTop:20, paddingLeft:30,paddingRight:30
         }}>
     سيتم مراجعة مشروعك من قبل المتخصصين لدينا وتقديم افضل الحلول
         </Text>
 
-<TouchableOpacity style={{position:'absolute',bottom:height * 0.158}}
+<TouchableOpacity style={{position:'absolute',bottom:height * 0.118}}
   onPress={()=>this.props.navigate_("Main")}
 >
         <View style={{

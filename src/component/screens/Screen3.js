@@ -62,6 +62,7 @@ class Screen3 extends React.Component{
                         },
                         shadowOpacity: 0.32,
                         shadowRadius: 5.46,
+                        elevation:3
         
                     }}>
                         <View style={{ flex:1 , justifyContent:'center', alignItems:'center'}}>
@@ -88,7 +89,7 @@ class Screen3 extends React.Component{
                     },
                     shadowOpacity: 0.32,
                     shadowRadius: 5.46,
-        
+                    elevation:3
         
                 }}>
                     <View style={{ flex:1 , justifyContent:'center', alignItems:'center'}}>
@@ -115,7 +116,7 @@ class Screen3 extends React.Component{
                         },
                         shadowOpacity: 0.32,
                         shadowRadius: 5.46,
-        
+                        elevation:3
         
                     }}>
                         <View style={{ flex:1 , justifyContent:'center', alignItems:'center'}}>
@@ -142,7 +143,7 @@ class Screen3 extends React.Component{
                     },
                     shadowOpacity: 0.32,
                     shadowRadius: 5.46,
-    
+                    elevation:3
         
                 }}>
                     <View style={{ flex:1 , justifyContent:'center', alignItems:'center'}}>
@@ -169,7 +170,7 @@ class Screen3 extends React.Component{
                         },
                         shadowOpacity: 0.32,
                         shadowRadius: 5.46,
-    
+                        elevation:3
         
                     }}>
                         <View style={{ flex:1 , justifyContent:'center', alignItems:'center'}}>

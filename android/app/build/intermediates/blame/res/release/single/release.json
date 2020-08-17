@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_component_assets_background.png.flat",
-        "source": "/Users/khwarizm/takwen/android/app/build/generated/res/react/release/drawable-mdpi/src_component_assets_background.png"
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
-        "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_component_assets_background.png.flat",
+        "source": "/Users/khwarizm/takwen/android/app/build/generated/res/react/release/drawable-mdpi/src_component_assets_background.png"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -238,6 +238,10 @@
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light_focused.xml.flat",
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/d0f68b1af6e79ce71abc208b6bea43fb/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/drawable-xhdpi_src_component_assets_logotak.png.flat",
+        "source": "/Users/khwarizm/takwen/android/app/build/generated/res/react/release/drawable-xhdpi/src_component_assets_logotak.png"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/color_mtrl_on_primary_text_btn_text_color_selector.xml.flat",
@@ -1838,6 +1842,10 @@
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/layout_abc_select_dialog_material.xml.flat",
         "source": "/Users/khwarizm/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_src_component_assets_logotak.png.flat",
+        "source": "/Users/khwarizm/takwen/android/app/build/generated/res/react/release/drawable-xxhdpi/src_component_assets_logotak.png"
     },
     {
         "merged": "/Users/khwarizm/takwen/android/app/build/intermediates/res/merged/release/layout_redbox_item_title.xml.flat",
